@@ -38,8 +38,8 @@ const TAB_DATA = [
     id: "certificados",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full Stack Web Developer("Soy Henry")</li>
-        <li>Desarrollador Web Argentina Programa 4.0("UTN")</li>
+        <li>Full Stack Web Developer (&quot;Soy Henry&quot;)</li>
+        <li>Desarrollador Web Argentina Programa 4.0 (&quot;UTN&quot;)</li>
       </ul>
     ),
   },
