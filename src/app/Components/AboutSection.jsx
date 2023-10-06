@@ -3,6 +3,7 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 import { motion } from "framer-motion";
+/* eslint-disable react/no-unescaped-entities */
 
 const TAB_DATA = [
   {
@@ -62,7 +63,12 @@ const AboutSection = () => {
         className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16"
       >
         <div className=" mt-4 md:mt-0  flex flex-col h-full ">
-          <Image src="/images/about-image.jpg" width={500} height={500}></Image>
+          <Image
+            src="/images/about-image.jpg"
+            width={500}
+            height={500}
+            alt=""
+          ></Image>
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre Mí</h2>

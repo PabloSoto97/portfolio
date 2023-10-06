@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-
+/* eslint-disable react/no-unescaped-entities */
 const HeroSection = () => {
   const downloadCV = () => {
     // Reemplaza 'ruta-al-cv.pdf' con la ubicación real de tu archivo CV
