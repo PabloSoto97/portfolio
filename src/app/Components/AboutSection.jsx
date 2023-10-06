@@ -67,7 +67,7 @@ const AboutSection = () => {
             src="/images/about-image.jpg"
             width={500}
             height={500}
-            alt=""
+            alt=" "
           ></Image>
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
