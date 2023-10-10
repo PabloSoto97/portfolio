@@ -6,8 +6,7 @@ import { motion } from "framer-motion";
 /* eslint-disable react/no-unescaped-entities */
 const HeroSection = () => {
   const downloadCV = () => {
-    // Reemplaza 'ruta-al-cv.pdf' con la ubicación real de tu archivo CV
-    const cvURL = "../../../public/cv.docx";
+    const cvURL = "/cv.docx";
     window.open(cvURL, "_blank");
   };
 
